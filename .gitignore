@@ -1,0 +1,69 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+appsettings.Development.json
+appsettings.Production.json
+
+# ====================================================================
+# BACKEND: C# / .NET (ASP.NET Core)
+# ====================================================================
+# Pastas de compilação e binários
+[Bb]in/
+[Oo]bj/
+# Arquivos gerados pelo Visual Studio / VS Code
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+# Relatórios de testes e logs do .NET
+*.log
+TestResults/
+
+# ====================================================================
+# MOBILE: FLUTTER / REACT NATIVE / .NET MAUI (Geral)
+# ====================================================================
+# Pastas de build de aplicativos móveis
+/build/
+.gradle/
+/android/app/protobuf/
+/android/app/build/
+/ios/Pods/
+/ios/build/
+.pub-cache/
+.dart_tool/
+node_modules/
+.expo/
+
+# ====================================================================
+# DESIGN E MODELAGEM: StarUML & Figma
+# ====================================================================
+# Se você salvar o arquivo do StarUML na pasta do projeto e NÃO quiser no GitHub:
+# *.mdj
+# Arquivos temporários de exportação de imagens do Figma/StarUML
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# ====================================================================
+# SISTEMA OPERACIONAL E ARQUIVOS TEMPORÁRIOS
+# ====================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs gerais
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
