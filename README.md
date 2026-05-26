@@ -6,20 +6,20 @@ O **Kortex Hub** é um aplicativo desenvolvido para centralizar as principais ve
 
 ---
 
-## 📊 Validação de Mercado (Baseado em Dados)
+## 📊 Validação de Mercado (Baseado em Dados Reais)
 
-Antes de iniciar o desenvolvimento, o projeto foi validado através de uma pesquisa de campo com o público-alvo (jovens adultos, estudantes e trabalhadores CLT). Os resultados coletados demonstraram uma dor real de mercado:
+O escopo do Kortex Hub foi validado estatisticamente através de uma pesquisa quantitativa e qualitativa com o público-alvo (majoritariamente trabalhadores CLT de 18 a 30 anos). Os dados coletados justificam e validam a existência do produto:
 
-* **87.5%** dos entrevistados utilizam aplicativos para gerenciar suas Finanças.
-* **50%** utilizam aplicativos para organizar suas Tarefas diárias.
-* **37.5%** relataram incômodo extremo (nota 5/5) em ter que abrir vários apps diferentes para gerenciar o dia a dia.
-* **87.5%** afirmaram que utilizariam uma solução centralizada como o Kortex Hub.
+* **Centralização Necessária:** 61,6% dos entrevistados usam 2 ou mais aplicativos simultâneos para tentar gerenciar a sua rotina.
+* **Dor de Mercado Clara:** 53,9% relatam incômodo elevado (Notas 4 e 5 de 5) com a fragmentação de ter que abrir múltiplos apps no dia a dia.
+* **Aderência do MVP:** **84,6%** afirmaram categoricamente que utilizariam uma solução centralizada como o Kortex Hub.
+* **Áreas de Maior Interesse:** Finanças lidera com **84,6%** de necessidade de controle, seguida por Treinos com **53,8%** e Tarefas Diárias com **46,2%**.
 
 ---
 
 ## 🎯 Requisitos do Sistema
 
-O escopo do projeto foi desenhado focando em um MVP (Mínimo Produto Viável) robusto, refinado com base nos feedbacks da pesquisa (como a necessidade de uma visualização em formato de calendário).
+O escopo do projeto foi desenhado focando em um MVP (Mínimo Produto Viável) robusto, refinado com base nos feedbacks qualitativos da pesquisa (como a necessidade de um calendário e atalhos rápidos de inserção).
 
 ### Requisitos Funcionais
 
@@ -44,25 +44,8 @@ O escopo do projeto foi desenhado focando em um MVP (Mínimo Produto Viável) ro
 | **RNF02** | Segurança de Dados | O sistema deve criptografar as senhas dos utilizadores e garantir que dados sensíveis não sejam expostos publicamente (LGPD). |
 | **RNF03** | Arquitetura de Software | O código deve seguir padrões bem definidos (MVC ou Clean Architecture) para facilitar manutenções e o uso no portfólio de ADS. |
 | **RNF04** | Persistência Local | O app deve armazenar os dados localmente no dispositivo para garantir consultas e funcionamento estável mesmo offline. |
+
 ---
-
-## 📋 Backlog de Atividades
-
-| ID | Atividade | Fase | Situação |
-| :---: | :--- | :---: | :---: |
-| **1** | Definir público-alvo e rodar pesquisa de validação | 01 | CONCLUÍDO |
-| **2** | Levantar requisitos funcionais e não funcionais | 01 | CONCLUÍDO |
-| **3** | Estruturar definições de qualidade (DoR e DoD) | 01 | CONCLUÍDO |
-| **4** | Criar repositório no GitHub com `.gitignore` configurado | 01 | CONCLUÍDO |
-| **5** | Modelar Diagramas de Caso de Uso no StarUML | 02 | A FAZER |
-| **6** | Modelar Diagrama de Classes Geral | 02 | A FAZER |
-| **7** | Modelar Diagramas de Classes por Caso de Uso | 02 | A FAZER |
-| **8** | Modelar Diagramas de Sequência por Caso de Uso | 02 | A FAZER |
-| **9** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento) | 02 | A FAZER |
-| **10** | Desenvolver Prototipagem no Figma (Foco em UI/UX e Responsividade) | 03 | A FAZER |
-| **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | 04 | A FAZER |
-| **12** | Desenvolver Front-end do Aplicativo Mobile integrado às APIs do Backend | 04 | A FAZER |
-| **13** | Realizar testes de integração, persistência e homologação do MVP | 05 | A FAZER |
 
 ## 🛡️ Controle de Qualidade (DoR / DoD)
 
@@ -74,11 +57,31 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 
 ---
 
-## 🛠️ Stack Tecnológica (Em Definição)
+## 📋 Backlog de Atividades
+
+| ID | Atividade | Prioridade | Fase | Situação |
+| :---: | :--- | :---: | :---: | :---: |
+| **1** | Definir público-alvo e rodar pesquisa de validação | ALTA | 01 | CONCLUÍDO |
+| **2** | Levantar requisitos funcionais e não funcionais | ALTA | 01 | CONCLUÍDO |
+| **3** | Estruturar definições de qualidade (DoR e DoD) | ALTA | 01 | CONCLUÍDO |
+| **4** | Criar repositório no GitHub | ALTA | 01 | CONCLUÍDO |
+| **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | A FAZER |
+| **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | A FAZER |
+| **7** | Modelar Diagramas de Classes por Caso de Uso | MÉDIA | 02 | A FAZER |
+| **8** | Modelar Diagramas de Sequência por Caso de Uso | MÉDIA | 02 | A FAZER |
+| **9** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento) | ALTA | 02 | A FAZER |
+| **10** | Desenvolver Prototipagem (Foco em UI/UX e Responsividade) | ALTA | 03 | A FAZER |
+| **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
+| **12** | Desenvolver Front-end do Aplicativo Mobile integrado às APIs do Backend | ALTA | 04 | A FAZER |
+| **13** | Realizar testes de integração, persistência e homologação do MVP | MÉDIA | 05 | A FAZER |
+
+---
+
+## 🛠️ Stack Tecnológica
 
 * **Backend:** C# / .NET (ASP.NET Core)
-* **Mobile (Android/iOS):** *[A definir: Flutter / React Native / .NET MAUI]*
-* **Modelagem:** StarUML / Figma
+* **Mobile (Android/iOS):** *[A definir]*
+* **Modelagem e Design:** StarUML / Figma
 
 ---
 
