@@ -38,15 +38,19 @@ node_modules/
 .expo/
 
 # ====================================================================
-# DESIGN E MODELAGEM: StarUML & Figma
+# DESIGN E MODELAGEM: Draw.io & Figma
 # ====================================================================
-# Se você salvar o arquivo do StarUML na pasta do projeto e NÃO quiser no GitHub:
-# *.mdj
-# Arquivos temporários de exportação de imagens do Figma/StarUML
+# Arquivos temporários e de backup do Draw.io
+*.$*.drawio.bkp
+.*.drawio.bkp
+
+# Ignorar imagens gerais, mas PERMITIR a pasta de documentação do projeto
 *.png
 *.jpg
 *.jpeg
 *.svg
+!docs/
+!docs/**
 
 # ====================================================================
 # SISTEMA OPERACIONAL E ARQUIVOS TEMPORÁRIOS
