@@ -65,8 +65,8 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 | **2** | Levantar requisitos funcionais e não funcionais | ALTA | 01 | CONCLUÍDO |
 | **3** | Estruturar definições de qualidade (DoR e DoD) | ALTA | 01 | CONCLUÍDO |
 | **4** | Criar repositório no GitHub | ALTA | 01 | CONCLUÍDO |
-| **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | A FAZER |
-| **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | A FAZER |
+| **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | CONCLUÍDO |
+| **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | Em Andamento |
 | **7** | Modelar Diagramas de Classes por Caso de Uso | MÉDIA | 02 | A FAZER |
 | **8** | Modelar Diagramas de Sequência por Caso de Uso | MÉDIA | 02 | A FAZER |
 | **9** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento) | ALTA | 02 | A FAZER |
@@ -80,8 +80,10 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 ## 🛠️ Stack Tecnológica
 
 * **Backend:** C# / .NET (ASP.NET Core)
-* **Mobile (Android/iOS):** *[A definir]*
-* **Modelagem e Design:** StarUML / Figma
+* **Mobile (Android/iOS):** Flutter (Dart)
+* **Modelagem e Design:** Draw.io / Figma
+
+> ⚠️ **Nota de Desenvolvimento (Git):** Os arquivos de modelagem `.drawio` estão configurados como **binários** no `.gitattributes` para evitar quebras e conflitos de merge no XML. Em caso de conflito, escolha a versão correta (`ours` ou `theirs`) diretamente via Git e reabra o arquivo no editor visual.
 
 ---
 
