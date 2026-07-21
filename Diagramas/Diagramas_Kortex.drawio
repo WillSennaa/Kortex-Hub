@@ -630,10 +630,147 @@
     </mxGraphModel>
   </diagram>
   <diagram id="snCoUP0NxXfGUQqyD8tm" name="DER">
-    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3002" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="evWqBwwgNPywmym0F7M--39" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--55" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--67" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evWqBwwgNPywmym0F7M--66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--80" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="evWqBwwgNPywmym0F7M--79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;usuarios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id : UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;8,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(100) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;8,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;email&lt;/code&gt;: VARCHAR(150) NOT NULL (UNIQUE)&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;senha_hash&lt;/code&gt;: VARCHAR(255) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;data_cadastro&lt;/code&gt;: TIMESTAMP NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;status&lt;/code&gt;: VARCHAR(20) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,6,0&quot; data-index-in-node=&quot;0&quot;&gt;tipo_usuario&lt;/code&gt;: VARCHAR(20) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,7,0&quot; data-index-in-node=&quot;0&quot;&gt;data_nascimento&lt;/code&gt;: DATE&lt;br&gt;&lt;code data-path-to-node=&quot;8,0,1,8,0&quot; data-index-in-node=&quot;0&quot;&gt;nivel_permissao&lt;/code&gt;: VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="170" width="280" x="100" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--40" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;categorias_financeiras&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id : UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(50) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;cor_hex&lt;/code&gt;: VARCHAR(7) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;11,0,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;icone_codigo&lt;/code&gt;: VARCHAR(50) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="100" width="280" x="100" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--42" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;transacoes_financeiras&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id : UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;usuario_id: UUID NOT NULL&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;font-size: 1em; width: 280px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;categoria_financeira_id: UUID NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,1,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;descricao&lt;/code&gt;: VARCHAR(150) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;11,1,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;valor&lt;/code&gt;: DECIMAL(10,2) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;11,1,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;data&lt;/code&gt;: DATE NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;11,1,1,6,0&quot; data-index-in-node=&quot;0&quot;&gt;tipo&lt;/code&gt;: VARCHAR(20) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="150" width="280" x="100" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--43" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--36" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;tags&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,2,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,2,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(30) NOT NULL (UNIQUE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="510" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--37" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;transacoes_tags&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK FK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;11,3,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;transacao_id&lt;/code&gt;: UUID&amp;nbsp;NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;11,3,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;tag_id&lt;/code&gt;: UUID&amp;nbsp;NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="510" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--59" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--52" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;exercicios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,0,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(100) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;grupo_muscular&lt;/code&gt;: VARCHAR(50) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;14,0,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;video_execucao_url&lt;/code&gt;: VARCHAR(255)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="100" width="280" x="510" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--58" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--53" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;treinos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,1,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,1,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;usuario_id&lt;/code&gt;: UUID&amp;nbsp;NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,1,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(100) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;14,1,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;data_criacao&lt;/code&gt;: TIMESTAMP NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;14,1,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;ativo&lt;/code&gt;: BOOLEAN NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="100" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--57" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;itens_exercicios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,2,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;treino_id: UUID NOT NULL&lt;br&gt;exercicio_id: UUID NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;14,2,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;series&lt;/code&gt;: INT NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;14,2,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;repeticoes&lt;/code&gt;: INT NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;14,2,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;carga&lt;/code&gt;: DECIMAL(5,2)&lt;br&gt;&lt;code data-path-to-node=&quot;14,2,1,6,0&quot; data-index-in-node=&quot;0&quot;&gt;tempo_descanso&lt;/code&gt;: INT NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="100" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--66" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;tarefas&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,1,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,1,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;usuario_id&lt;/code&gt;: UUID NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;17,1,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;categoria_tarefa_id&lt;/code&gt;: UUID NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,1,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;titulo&lt;/code&gt;: VARCHAR(100) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;17,1,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;descricao&lt;/code&gt;: TEXT&lt;br&gt;&lt;code data-path-to-node=&quot;17,1,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;data_vencimento&lt;/code&gt;: TIMESTAMP&lt;br&gt;&lt;code data-path-to-node=&quot;17,1,1,6,0&quot; data-index-in-node=&quot;0&quot;&gt;prioridade&lt;/code&gt;: VARCHAR(20) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;17,1,1,7,0&quot; data-index-in-node=&quot;0&quot;&gt;concluida&lt;/code&gt;: BOOLEAN NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="155" width="280" x="510" y="512.5" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--71" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="evWqBwwgNPywmym0F7M--66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--68" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;categorias_tarefas&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,0,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;nome&lt;/code&gt;: VARCHAR(50) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;17,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;cor_hex&lt;/code&gt;: VARCHAR(7) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;17,0,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;icone_codigo&lt;/code&gt;: VARCHAR(50) NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="100" width="280" x="920" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="860" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="790" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--76" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;feedbacks&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,0,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;usuario_id&lt;/code&gt;: UUID NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;admin_id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,0,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;tipo&lt;/code&gt;: VARCHAR(20) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,0,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;mensagem&lt;/code&gt;: TEXT NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,0,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;data_envio&lt;/code&gt;: TIMESTAMP NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,0,1,6,0&quot; data-index-in-node=&quot;0&quot;&gt;respondido&lt;/code&gt;: BOOLEAN NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="145" width="280" x="-310" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--78" edge="1" parent="1" source="evWqBwwgNPywmym0F7M--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="evWqBwwgNPywmym0F7M--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--79" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;notificacoes_sistema&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,1,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;id&lt;/code&gt;: UUID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,1,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;admin_id&lt;/code&gt;: UUID NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;code data-path-to-node=&quot;20,1,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;titulo&lt;/code&gt;: VARCHAR(100) NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,1,1,3,0&quot; data-index-in-node=&quot;0&quot;&gt;conteudo&lt;/code&gt;: TEXT NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,1,1,4,0&quot; data-index-in-node=&quot;0&quot;&gt;data_criacao&lt;/code&gt;: TIMESTAMP NOT NULL&lt;br&gt;&lt;code data-path-to-node=&quot;20,1,1,5,0&quot; data-index-in-node=&quot;0&quot;&gt;data_expiracao&lt;/code&gt;: TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="125" width="280" x="-310" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="evWqBwwgNPywmym0F7M--84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
