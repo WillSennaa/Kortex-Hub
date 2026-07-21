@@ -66,14 +66,13 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 | **3** | Estruturar definições de qualidade (DoR e DoD) | ALTA | 01 | CONCLUÍDO |
 | **4** | Criar repositório no GitHub | ALTA | 01 | CONCLUÍDO |
 | **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | CONCLUÍDO |
-| **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | Em Andamento |
-| **7** | Modelar Diagramas de Classes por Caso de Uso | MÉDIA | 02 | A FAZER |
-| **8** | Modelar Diagramas de Sequência por Caso de Uso | MÉDIA | 02 | A FAZER |
-| **9** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento) | ALTA | 02 | A FAZER |
-| **10** | Desenvolver Prototipagem (Foco em UI/UX e Responsividade) | ALTA | 03 | A FAZER |
-| **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
-| **12** | Desenvolver Front-end do Aplicativo Mobile integrado às APIs do Backend | ALTA | 04 | A FAZER |
-| **13** | Realizar testes de integração, persistência e homologação do MVP | MÉDIA | 05 | A FAZER |
+| **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | CONCLUÍDO |
+| **7** | Modelar Diagrama de Entidade-Relação | ALTA | 02 | CONCLUÍDO |
+| **8** | Desenvolver Prototipagem (Foco em UI/UX e Responsividade) | ALTA | 03 | EM DESENVOLVIMENTO |
+| **9** | Realizar Testes de Usuabilidade com o Protótipo | ALTA | 03 | A FAZER |
+| **10** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
+| **11** | Desenvolver Front-end do Aplicativo Mobile integrado às APIs do Backend | ALTA | 05 | A FAZER |
+| **12** | Realizar testes de integração, persistência e homologação do MVP | MÉDIA | 06 | A FAZER |
 
 ---
 
