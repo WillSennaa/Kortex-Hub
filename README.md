@@ -35,6 +35,7 @@ O escopo do projeto foi desenhado focando em um MVP (Mínimo Produto Viável) ro
 | **RF08** | Registar Exercícios | Adicionar exercícios dentro de cada treino, contendo histórico de cargas, séries e repetições. |
 | **RF09** | Gerir Tarefas (To-Do) | Criar listas de tarefas com título, descrição e prazo de conclusão para atividades fora da rotina. |
 | **RF10** | Concluir Atividades | Permitir a marcação visual e o arquivamento de tarefas que foram concluídas pelo utilizador. |
+| **RF11** | Exportar e Importar Backup Local | Permitir que o usuário gere um arquivo cifrado com seu histórico completo. |
 
 ### Requisitos Não-Funcionais
 
@@ -57,32 +58,35 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 
 ---
 
-## 📋 Backlog de Atividades
-
+#### 📋 Backlog de Atividades
 | ID | Atividade | Prioridade | Fase | Situação |
-| :---: | :--- | :---: | :---: | :---: |
+| :--- | :--- | :--- | :--- | :--- |
 | **1** | Definir público-alvo e rodar pesquisa de validação | ALTA | 01 | CONCLUÍDO |
 | **2** | Levantar requisitos funcionais e não funcionais | ALTA | 01 | CONCLUÍDO |
 | **3** | Estruturar definições de qualidade (DoR e DoD) | ALTA | 01 | CONCLUÍDO |
 | **4** | Criar repositório no GitHub | ALTA | 01 | CONCLUÍDO |
 | **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | CONCLUÍDO |
 | **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | CONCLUÍDO |
-| **7** | Modelar Diagrama de Entidade-Relação | ALTA | 02 | CONCLUÍDO |
-| **8** | Desenvolver Prototipagem (Foco em UI/UX e Responsividade) | ALTA | 03 | EM DESENVOLVIMENTO |
-| **9** | Realizar Testes de Usuabilidade com o Protótipo | ALTA | 03 | A FAZER |
-| **10** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
-| **11** | Desenvolver Front-end do Aplicativo Mobile integrado às APIs do Backend | ALTA | 05 | A FAZER |
-| **12** | Realizar testes de integração, persistência e homologação do MVP | MÉDIA | 06 | A FAZER |
+| **7** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento em 3FN) | ALTA | 02 | CONCLUÍDO |
+| **8** | Desenvolver Prototipagem de Telas e Guia de Estilos no Figma (UI/UX) | ALTA | 03 | EM ANDAMENTO |
+| **9** | Realizar testes de usabilidade do protótipo | ALTA | 03 | A FAZER |
+| **10** | Configurar banco de dados SQL Server no SSMS (autenticação e dados de login) | ALTA | 04 | A FAZER |
+| **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
+| **12** | Desenvolver e executar Testes Unitários no Backend em C# / .NET (xUnit/NUnit) | ALTA | 04 | A FAZER |
+| **13** | Desenvolver Front-end Mobile em React Native (Focado em Android) | ALTA | 04 | A FAZER |
+| **14** | Desenvolver e executar Testes Unitários no Front-end React Native (Jest/RTL) | ALTA | 04 | A FAZER |
+| **15** | Implementar persistência local e rotina de exportação/backup para o Google Drive | ALTA | 04 | A FAZER |
+| **16** | Realizar testes de integração, persistência offline e homologação do MVP | MÉDIA | 05 | A FAZER |
 
 ---
 
-## 🛠️ Stack Tecnológica
+#### 🛠️ Stack Tecnológica
+*   **Backend:** C# / .NET (ASP.NET Core)
+*   **Banco de Dados (Nuvem/Autenticação):** Microsoft SQL Server (SSMS)
+*   **Mobile (Apenas Android no MVP):** React Native (JavaScript / TypeScript)
+*   **Modelagem e Design:** Draw.io / Figma
 
-* **Backend:** C# / .NET (ASP.NET Core)
-* **Mobile (Android/iOS):** Flutter (Dart)
-* **Modelagem e Design:** Draw.io / Figma
-
-> ⚠️ **Nota de Desenvolvimento (Git):** Os arquivos de modelagem `.drawio` estão configurados como **binários** no `.gitattributes` para evitar quebras e conflitos de merge no XML. Em caso de conflito, escolha a versão correta (`ours` ou `theirs`) diretamente via Git e reabra o arquivo no editor visual.
+⚠️ **Nota de Desenvolvimento (Git):** Os arquivos de modelagem `.drawio` estão configurados como **binários** no `.gitattributes` para evitar quebras e conflitos de merge no XML. Em caso de conflito, escolha a versão correta (`ours` ou `theirs`) diretamente via Git e reabra o arquivo no editor visual.
 
 ---
 
