@@ -1,0 +1,51 @@
+🎨 Color Styles (Paleta de Cores)
+Texto Geral (All Text): #1E1B4B — Aplicado a todas as escritas e textos do protótipo.
+
+Primary / Background (Fundo da Tela): #738FFF — Cor de fundo principal do app.
+
+Surface / Cards Normais: #C7D2FE — Utilizado para os cards padrão (dia, mês e ano, informações de finanças, treino e atividades).
+
+Surface / Card do Dia Selecionado: #5475FA — Fundo destacado para a data ativa.
+
+Primary / Action (Botões e Navegação): #5475FA — Aplicado a:
+
+Botão de Novo registro
+
+Ver mais exercícios e atividades
+
+Iniciar treino
+
+Adicionar atividade
+
+Botões e itens da navegação inferior
+
+Semantic / Success (Entradas): #00A60B — Indicador positivo/entradas financeiras.
+
+Semantic / Danger (Saídas): #CD0303 — Indicador negativo/despesas/saídas financeiras.
+
+🔤 Text Styles (Tipografia - Família: Inter)
+Header / Mês e Ano: Inter Semi Bold | 14px
+
+Date / Dia Selecionado:
+
+Número: Inter Bold | 16px
+
+Abreviação do dia da semana: Inter Medium | 12px
+
+Date / Demais Dias:
+
+Número: Inter Regular | 16px
+
+Abreviação do dia da semana: Inter Regular | 12px
+
+Resumo:
+
+Títulos: Inter Bold | 14px
+
+Dados: Inter Regular | 12px
+
+Botões no Resumo: Inter Semi Bold | 14px
+
+Resumo Visual dos Demais Dias: Inter Regular | 12px
+
+Navigation / Barra Inferior: Inter Bold | 14px
