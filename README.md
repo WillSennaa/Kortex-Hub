@@ -68,8 +68,8 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 | **5** | Modelar Diagramas de Caso de Uso | ALTA | 02 | CONCLUÍDO |
 | **6** | Modelar Diagrama de Classes Geral | ALTA | 02 | CONCLUÍDO |
 | **7** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento em 3FN) | ALTA | 02 | CONCLUÍDO |
-| **8** | Desenvolver Prototipagem de Telas e Guia de Estilos no Figma (UI/UX) | ALTA | 03 | EM ANDAMENTO |
-| **9** | Realizar testes de usabilidade do protótipo | ALTA | 03 | A FAZER |
+| **8** | Desenvolver Prototipagem de Telas e Guia de Estilos no Figma (UI/UX) | ALTA | 03 | CONCLUÍDO |
+| **9** | Realizar testes de usabilidade do protótipo | ALTA | 03 | EM ANDAMENTO |
 | **10** | Configurar banco de dados SQL Server no SSMS (autenticação e dados de login) | ALTA | 04 | A FAZER |
 | **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
 | **12** | Desenvolver e executar Testes Unitários no Backend em C# / .NET (xUnit/NUnit) | ALTA | 04 | A FAZER |
