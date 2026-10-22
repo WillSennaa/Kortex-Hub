@@ -25,26 +25,27 @@ O escopo do projeto foi desenhado focando em um MVP (Mínimo Produto Viável) ro
 
 | ID | Requisito | Descrição |
 | :--- | :--- | :--- |
-| **RF01** | Gerir Utilizadores | Cadastrar, consultar, atualizar e desativar contas de usuários. |
-| **RF02** | Autenticar Acesso | Validar a entrada de utilizadores via e-mail e senha com suporte a recuperação de credenciais. |
+| **RF01** | Gerir Usuários | Cadastrar, consultar, atualizar e desativar contas de usuários. |
+| **RF02** | Autenticar Acesso | Validar a entrada de usuários somente via e-mail e senha, com suporte a recuperação de credenciais e uso offline após o primeiro login. |
 | **RF03** | Visualizar Central | Apresentar uma tela inicial (Dashboard) com visualização em formato de calendário ou linha do tempo. |
 | **RF04** | Centralizar Dados | Exibir de forma unificada no Dashboard as tarefas do dia, treinos agendados e o resumo financeiro atual. |
-| **RF05** | Gerir Finanças | Registrar entradas (receitas) e saídas (despesas) com valor, data e descrição. |
-| **RF06** | Categorizar Transações | Permitir a vinculação de despesas e receitas a categorias específicas para melhor organização. |
-| **RF07** | Gerir Rotinas de Treino | Estruturar rotinas de treino organizadas por divisões customizáveis (Ex: Treino A, Treino B). |
-| **RF08** | Registar Exercícios | Adicionar exercícios dentro de cada treino, contendo histórico de cargas, séries e repetições. |
-| **RF09** | Gerir Tarefas (To-Do) | Criar listas de tarefas com título, descrição e prazo de conclusão para atividades fora da rotina. |
-| **RF10** | Concluir Atividades | Permitir a marcação visual e o arquivamento de tarefas que foram concluídas pelo utilizador. |
-| **RF11** | Exportar e Importar Backup Local | Permitir que o usuário gere um arquivo cifrado com seu histórico completo. |
+| **RF05** | Gerir Finanças | Cadastrar contas/carteiras, registrar receitas e despesas (pendentes ou efetivadas) com valor, data e descrição e transferir valores entre contas. |
+| **RF06** | Categorizar Transações | Vincular despesas e receitas a categorias e subcategorias, com ícone e cor, para melhor organização. |
+| **RF07** | Gerir Rotinas de Treino | Estruturar rotinas por divisões customizáveis (Ex: Treino A, Treino B), agendadas por dia da semana e agrupadas em pastas. |
+| **RF08** | Registrar Treinos e Exercícios | Executar treinos registrando cada série (carga e repetições), com histórico, recordes e evolução do peso corporal. |
+| **RF09** | Gerir Tarefas (To-Do) | Criar tarefas com título, descrição, prazo e prioridade, organizadas em pastas. |
+| **RF10** | Concluir Atividades | Permitir a marcação visual e o arquivamento de tarefas concluídas pelo usuário, com progresso diário. |
+| **RF11** | Backup na Conta Google | Conectar uma conta Google para salvar e restaurar um backup cifrado dos dados de todos os módulos no Google Drive. |
+| **RF12** | Comunicar com a Plataforma | Enviar feedbacks e visualizar avisos globais; ADMs respondem feedbacks e emitem avisos. |
 
 ### Requisitos Não-Funcionais
 
 | ID | Requisito | Descrição |
 | :--- | :--- | :--- |
 | **RNF01** | Desempenho de Interface | O aplicativo deve apresentar uma navegação fluida, com transições de tela rápidas e sem engasgos (UI/UX ágil). |
-| **RNF02** | Segurança de Dados | O sistema deve criptografar as senhas dos utilizadores e garantir que dados sensíveis não sejam expostos publicamente (LGPD). |
+| **RNF02** | Segurança de Dados | O sistema deve aplicar hash às senhas dos usuários, bloquear o acesso público ao banco em nuvem (RLS) e cifrar os backups, garantindo que dados sensíveis não sejam expostos (LGPD). |
 | **RNF03** | Arquitetura de Software | O código deve seguir padrões bem definidos (MVC ou Clean Architecture) para facilitar manutenções e o uso no portfólio de ADS. |
-| **RNF04** | Persistência Local | O app deve armazenar os dados localmente no dispositivo para garantir consultas e funcionamento estável mesmo offline. |
+| **RNF04** | Persistência Local | O app deve armazenar os dados dos módulos localmente (SQLite) para garantir consultas e funcionamento estável mesmo offline. |
 
 ---
 
@@ -70,19 +71,31 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 | **7** | Desenhar a Modelagem de Dados e DER (Modelo Entidade-Relacionamento em 3FN) | ALTA | 02 | CONCLUÍDO |
 | **8** | Desenvolver Prototipagem de Telas e Guia de Estilos no Figma (UI/UX) | ALTA | 03 | CONCLUÍDO |
 | **9** | Realizar testes de usabilidade do protótipo | ALTA | 03 | EM ANDAMENTO |
-| **10** | Configurar banco de dados SQL Server no SSMS (autenticação e dados de login) | ALTA | 04 | A FAZER |
+| **10** | Configurar o banco no Supabase | ALTA | 04 | A FAZER |
 | **11** | Configurar ambientes e iniciar desenvolvimento do Backend em C# / .NET | ALTA | 04 | A FAZER |
 | **12** | Desenvolver e executar Testes Unitários no Backend em C# / .NET (xUnit/NUnit) | ALTA | 04 | A FAZER |
 | **13** | Desenvolver Front-end Mobile em React Native (Focado em Android) | ALTA | 04 | A FAZER |
 | **14** | Desenvolver e executar Testes Unitários no Front-end React Native (Jest/RTL) | ALTA | 04 | A FAZER |
-| **15** | Implementar persistência local e rotina de exportação/backup para o Google Drive | ALTA | 04 | A FAZER |
+| **15** | Implementar persistência local (SQLite + migrações) e backup cifrado na conta Google do usuário | ALTA | 04 | A FAZER |
 | **16** | Realizar testes de integração, persistência offline e homologação do MVP | MÉDIA | 05 | A FAZER |
+
+---
+
+#### 📚 Documentação
+
+* [Requisitos detalhados](Docs/README.md)
+* [Regras de Negócio e ADRs](Docs/REGRAS_DE_NEGOCIO_E_ADR.md)
+* [Dicionário de Dados e DDL](Docs/Dicionario%20Dados%20e%20DDL/README.md)
+* Diagramas: [fonte .drawio](Diagramas/Diagramas_Kortex.drawio) · [Casos de Uso](Diagramas/Casos_de_Uso.png) · [Classes](Diagramas/Classes.png) · [DER](Diagramas/DER.png)
+* [Protótipo e Guia de Estilos](Prototipo/)
 
 ---
 
 #### 🛠️ Stack Tecnológica
 *   **Backend:** C# / .NET (ASP.NET Core)
-*   **Banco de Dados (Nuvem/Autenticação):** Microsoft SQL Server (SSMS)
+*   **Banco de Dados (Nuvem — somente conta e autenticação):** Supabase (PostgreSQL)
+*   **Banco de Dados (Local — dados dos módulos):** SQLite no dispositivo
+*   **Backup:** Google Drive do usuário (OAuth)
 *   **Mobile (Apenas Android no MVP):** React Native (JavaScript / TypeScript)
 *   **Modelagem e Design:** Draw.io / Figma
 

@@ -6,6 +6,14 @@
 appsettings.Development.json
 appsettings.Production.json
 
+# Bancos SQLite gerados em testes locais (o schema oficial está em Docs/)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
 # ====================================================================
 # BACKEND: C# / .NET (ASP.NET Core)
 # ====================================================================
@@ -23,17 +31,13 @@ appsettings.Production.json
 TestResults/
 
 # ====================================================================
-# MOBILE: FLUTTER / REACT NATIVE / .NET MAUI (Geral)
+# MOBILE: REACT NATIVE / EXPO (Android)
 # ====================================================================
 # Pastas de build de aplicativos móveis
 /build/
 .gradle/
 /android/app/protobuf/
 /android/app/build/
-/ios/Pods/
-/ios/build/
-.pub-cache/
-.dart_tool/
 node_modules/
 .expo/
 
@@ -44,13 +48,22 @@ node_modules/
 *.$*.drawio.bkp
 .*.drawio.bkp
 
-# Ignorar imagens gerais, mas PERMITIR a pasta de documentação do projeto
+# Ignorar imagens soltas, mas PERMITIR as pastas de documentação,
+# protótipo e diagramas (atenção: o Git diferencia maiúsculas/minúsculas)
 *.png
 *.jpg
 *.jpeg
 *.svg
-!docs/
-!docs/**
+!Docs/**/*.png
+!Docs/**/*.jpg
+!Docs/**/*.jpeg
+!Docs/**/*.svg
+!Prototipo/**/*.png
+!Prototipo/**/*.jpg
+!Prototipo/**/*.jpeg
+!Prototipo/**/*.svg
+!Diagramas/**/*.png
+!Diagramas/**/*.svg
 
 # ====================================================================
 # SISTEMA OPERACIONAL E ARQUIVOS TEMPORÁRIOS
