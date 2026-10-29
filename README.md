@@ -90,6 +90,8 @@ Para garantir a qualidade das entregas no desenvolvimento solo, o projeto segue 
 * [Regras de Negócio e ADRs](Docs/REGRAS_DE_NEGOCIO_E_ADR.md)
 * [Dicionário de Dados e DDL](Docs/Dicionario%20Dados%20e%20DDL/README.md)
 * [Diagramas (Mermaid)](Diagramas/README.md): [Casos de Uso](Diagramas/README.md#1-casos-de-uso) · [Classes](Diagramas/README.md#2-diagrama-de-classes) · [DER](Diagramas/README.md#3-der--modelo-entidade-relacionamento)
+* [Descrição dos Atores e Casos de Uso](Diagramas/Descricao_Casos_de_Uso.md)
+* [Diagrama de Rede (CPM) e cronograma do MVP](Diagramas/Diagrama_de_Rede.md)
 * [Protótipo e Guia de Estilos](Prototipo/)
 
 ---

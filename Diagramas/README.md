@@ -4,6 +4,8 @@ Diagramas em [Mermaid](https://mermaid.js.org/), renderizados pelo próprio GitH
 
 **Sumário:** [Casos de uso](#1-casos-de-uso) · [Classes](#2-diagrama-de-classes) · [DER](#3-der--modelo-entidade-relacionamento)
 
+**Documentos relacionados:** [Descrição dos Atores e Casos de Uso](Descricao_Casos_de_Uso.md) · [Diagrama de Rede (CPM)](Diagrama_de_Rede.md)
+
 ---
 
 ## 1. Casos de Uso
@@ -56,6 +58,8 @@ flowchart LR
     UC05 -. "«include»" .-> INC2
     UC06 -. "«include»" .-> INC3
 ```
+
+A descrição completa de cada ator e caso de uso (resumo, pré-condição, fluxo principal, fluxos alternativos, regras e pós-condição) está em [Descrição dos Atores e Casos de Uso](Descricao_Casos_de_Uso.md).
 
 | Caso de uso | Requisito | Regras |
 | :--- | :--- | :--- |
