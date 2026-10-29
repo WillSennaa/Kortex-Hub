@@ -1,4 +1,4 @@
-🎨 Color Styles (Paleta de Cores — Variáveis "KortexHub / Tema Claro")
+🎨 Color Styles — Tema Claro (Variáveis "KortexHub / Tema Claro")
 
 Texto
 Text / Primary: #1E1B4B — Textos principais, títulos e ícones padrão.
@@ -33,11 +33,15 @@ Card do dia selecionado (fundo e borda)
 
 Item ativo da navegação inferior e das abas (texto/ícone)
 
-Borda e texto de botões secundários/texto (Cancelar, Cadastrar)
-
 Borda dos inputs em foco e opções selecionadas (Chip, Segmentado)
 
-Links de texto (Esqueceu a Senha?, Reenviar)
+Action / Text: #3451D1 — Aplicado a:
+
+Links de texto (Recuperar Senha, + Nova Pasta, Editar Rotina, Registrar, Reenviar)
+
+Texto e borda de botões secundários e de texto (Cancelar, Cadastre-se, Restaurar backup)
+
+No tema claro tem o mesmo valor de Action / Primary; existe separada porque no tema escuro o link precisa de um azul mais claro para ser legível.
 
 Disabled / Background: #B3C0EC — Fundo de botões desabilitados.
 
@@ -69,6 +73,57 @@ Palette 01: #EF4444 | Palette 02: #F97316 | Palette 03: #F59E0B | Palette 04: #1
 Palette 06: #3B82F6 | Palette 07: #6366F1 | Palette 08: #8B5CF6 | Palette 09: #EC4899 | Palette 10: #78350F
 
 Palette 11: #6B7280 | Palette 12: #14B8A6 | Palette 13: #D9D9D9 | Palette 14: #A5B4FC | Palette 15: #4F46E5
+
+🌙 Color Styles — Tema Escuro (Variáveis "KortexHub / Tema Escuro")
+
+Como funciona no protótipo: o plano Starter do Figma permite só 1 modo por coleção, por isso o tema escuro é uma coleção separada, com as MESMAS variáveis de cor e os mesmos nomes. A página "Prototipo (Escuro)" é uma cópia da página "Prototipo (Claro)" em que as variáveis foram trocadas pelas da coleção Tema Escuro (painel Selection colors). Mudanças de tela precisam ser feitas nas duas páginas. No app, o tema segue o sistema na primeira abertura e depois a escolha em Configurações → Modo Noturno (RNF05, RN40).
+
+Todos os pares de texto/fundo abaixo foram conferidos com contraste WCAG AA (texto normal ≥ 4,5:1; bordas e elementos gráficos ≥ 3:1).
+
+Texto
+Text / Primary: #E8EBFF — Textos principais, títulos e ícones padrão (15,6:1 sobre o fundo).
+
+Text / Secondary: #A9B1D6 — Textos de apoio, legendas e abas não ativas.
+
+Text / Placeholder: #8F98C4 — Placeholder dos campos de entrada.
+
+Text / On Primary: #FFFFFF — Texto e ícones sobre fundo de ação (botões primários, header azul).
+
+Fundo e Superfície
+Background / App (Fundo da Tela): #0F1226
+
+Surface / Default (Cards, barra de navegação, campos): #1A1F3A
+
+Border / Default: #5A68A8 — Bordas de cards, campos e divisores (3,1:1 sobre a superfície). No escuro, as sombras quase não aparecem; a borda é o que separa os cards do fundo.
+
+Ação
+Action / Primary: #4C66E8 — Mesmo uso do tema claro. É mais escura que um azul "neon" de propósito: o texto branco dos botões precisa de 4,8:1 de contraste.
+
+Action / Text: #8FA2FF — Links e texto/borda de botões secundários e de texto (o azul de Action / Primary ficaria ilegível como texto sobre o fundo escuro).
+
+Disabled / Background: #2A3052
+
+Disabled / Text: #8F98C4
+
+Semânticas
+Status / Success (Entradas): #4ADE80
+
+Status / Success Subtle: #12301F
+
+Status / Error (Saídas): #F87171
+
+Status / Error Subtle: #3A1A1F
+
+Status / Warning: #FBBF24
+
+Gráficos (Categorias de Gastos)
+Chart / Alimentação: #E8956A | Chart / Transporte: #38BDF8 | Chart / Lazer: #8FA2FF | Chart / Outros: #C084FC
+
+Paleta de Seleção: mesmos 15 valores do tema claro (são cores escolhidas pelo usuário para contas, categorias e pastas).
+
+Iguais nos dois temas: tokens de layout, tipografia, paleta de seleção, sombras e o fundo preto translúcido das sobreposições (modais e bottom sheets).
+
+Logos: as versões vetoriais (LogoMenus_Kortex.svg / .json e LogoSplashSemCor_Kortex.svg) têm um único preenchimento; no tema escuro use Text / Primary (#E8EBFF) sobre o fundo e Text / On Primary (#FFFFFF) sobre o header azul.
 
 📐 Tokens de Layout
 Spacing / Unit: 8px | Spacing / Page: 16px | Spacing / Card Gap: 12px | Spacing / Padding: 16px
